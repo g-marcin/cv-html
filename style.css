@@ -1,0 +1,104 @@
+body{
+/* font */
+font-family: Poppins;
+font-size: 14px;
+
+/*debug*/
+border: 1px solid black;
+
+/* A4 */
+max-width: 794px;
+min-height: 1085px;  
+
+margin: 0 auto;
+
+display: flex;
+align-items: stretch;
+}
+
+ul{
+    margin: ;
+}
+
+aside{
+    flex: 3;
+    background:#ffa652;
+    /* opacity: 0.8; */
+
+    display: flex;
+    flex-direction: column;
+}
+
+aside>section{
+    padding: 150px 6px;
+    margin: auto,0;
+}
+
+aside >section > h4 {
+    padding-left: 10px;
+}
+aside>section>a {
+    padding-left: 10px;
+}
+aside>section>span {
+    padding-left: 10px;
+}
+
+
+aside > section > a {
+    padding-left: 10px;
+}
+
+main{
+    flex: 7;
+    padding:6px;
+    display: flex;
+    flex-direction: column ;
+}
+
+main > header {
+    padding: 10px 0;
+
+}
+
+header > h1 {
+    color: #ffa652;
+    font-size: 64px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 64px;
+}
+
+main > header > h2 {
+
+}
+
+main > footer {
+    font-size:10px
+}
+
+section.horizontal{
+    display: flex;
+}
+
+section.horizontal > section {
+    flex:1
+}
+
+main > section > table {
+    width: 100%;
+}
+
+th{
+    text-align: start;
+}
+
+
+div.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-self: stretch;
+    flex-grow: 3;
+    padding-bottom: 100px; 
+}

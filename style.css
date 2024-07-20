@@ -22,6 +22,10 @@ aside{
     background:#ffa652;
     display: flex;
     flex-direction: column;
+    display: none;
+    @media(min-width:780px){
+        display: block;
+    }
 }
 
 aside>section{
@@ -106,4 +110,13 @@ div.content {
 h2.university{
     line-height: 20px;
     padding-bottom: 6px;
+}
+
+section.mobile{
+    display: block;
+    background: #ffa652;
+    padding: 6px;
+    @media(min-width:780px){
+        display: none;
+    }
 }

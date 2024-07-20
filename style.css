@@ -16,15 +16,10 @@ display: flex;
 align-items: stretch;
 }
 
-ul{
-    margin: ;
-}
 
 aside{
     flex: 3;
     background:#ffa652;
-    /* opacity: 0.8; */
-
     display: flex;
     flex-direction: column;
 }
@@ -61,7 +56,7 @@ main > header {
 
 }
 
-header > h1 {
+main > header > h1 {
     color: #ffa652;
     font-size: 64px;
     text-align: center;
@@ -69,8 +64,9 @@ header > h1 {
     line-height: 64px;
 }
 
-main > header > h2 {
 
+main > section > h3{
+    font-size: 18px;
 }
 
 main > footer {
@@ -84,6 +80,10 @@ section.horizontal{
 section.horizontal > section {
     flex:1
 }
+section.horizontal > section:first-child > p {
+    max-width: 260px;
+}
+
 
 main > section > table {
     width: 100%;
@@ -100,5 +100,10 @@ div.content {
     justify-content: space-around;
     justify-self: stretch;
     flex-grow: 3;
-    padding-bottom: 100px; 
+    padding: 6px 6px 50px 6px; 
+}
+
+h2.university{
+    line-height: 20px;
+    padding-bottom: 6px;
 }

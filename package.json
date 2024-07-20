@@ -14,6 +14,7 @@
     "puppeteer": "^22.13.1"
   },
   "dependencies": {
+    "bun": "^1.1.20",
     "playwright": "^1.45.2"
   }
 }

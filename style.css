@@ -4,16 +4,21 @@ font-family: Poppins;
 font-size: 14px;
 
 /*debug*/
-border: 1px solid black;
+
+box-shadow: 10px 5px 5px rgba(0, 0, 0,0.3);
+
 
 /* A4 */
 max-width: 794px;
-min-height: 1085px;  
+min-height: 1123px;  
 
 margin: 0 auto;
 
 display: flex;
 align-items: stretch;
+
+display: absolute;
+z-index: 0;
 }
 
 
@@ -36,17 +41,7 @@ aside>section{
 aside >section > h4 {
     padding-left: 10px;
 }
-aside>section>a {
-    padding-left: 10px;
-}
-aside>section>span {
-    padding-left: 10px;
-}
 
-
-aside > section > a {
-    padding-left: 10px;
-}
 
 main{
     flex: 7;
@@ -71,6 +66,10 @@ main > header > h1 {
 
 main > section > h3{
     font-size: 18px;
+}
+
+table>tr {
+    padding: 12px 0;
 }
 
 main > footer {
@@ -119,4 +118,37 @@ section.mobile{
     @media(min-width:780px){
         display: none;
     }
+}
+
+button.getPdf-button{
+    position: fixed;
+    z-index: 1;
+    background: #ffa652;   
+    font-size: 12px;
+    bottom: 50px;
+    right: 50px;
+    padding: 6px;
+    min-width:100px ;
+    @media(min-width:400px){
+        font-size: 18px;
+        padding: 10px;
+        /* top: 50px;
+        right: 50px; */
+        min-width:100px ;
+    }
+    @media(min-width:660px){
+        font-size: 24px;
+        padding: 24px;
+        /* top: 50px;
+        right: 50px; */
+        min-width:151px ;
+    }
+
+}
+
+
+
+.cv-picture{
+    scale: 1.01;
+    transform: translateX(-1px);
 }

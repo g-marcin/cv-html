@@ -14,5 +14,5 @@ function showLoader(){
 function fetchPdf() {
     const url = window.location.href
     showLoader()
-    window.location.href=url + "api/pdf"
+    window.location.href="http://brudnopis.work/pdf"
 }

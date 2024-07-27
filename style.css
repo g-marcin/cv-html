@@ -129,6 +129,7 @@ button.getPdf-button{
     right: 50px;
     padding: 6px;
     min-width:100px ;
+    cursor: pointer;
     @media(min-width:400px){
         font-size: 18px;
         padding: 10px;
@@ -152,3 +153,4 @@ button.getPdf-button{
     scale: 1.01;
     transform: translateX(-1px);
 }
+
